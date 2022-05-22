@@ -9,8 +9,8 @@ import { LoginService } from './login.service';
 })
 export class AutenticationService {
 
-  url2: string = "https://nanreh1976.herokuapp.com/api/login";
-  //url: string = "https://nanreh1976.herokuapp.com/api/login"
+  url2: string = "https://comunidad-apirest.herokuapp.com/api/login";
+  url: string = "https://comunidad-apirest.herokuapp.com/api/login"
   user: User = { username: "", password: "", token: "" } ;
 
   private currentUserSubject: BehaviorSubject<any>;

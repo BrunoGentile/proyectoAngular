@@ -8,8 +8,8 @@ import { Observable } from 'rxjs';
 })
 export class PersonaService {
 
-  url2: string = "https://nanreh1976.herokuapp.com/api";
- // url: string = "https://error-pueblada-api.herokuapp.com/api"
+  url2: string = "https://comunidad-apirest.herokuapp.com/api";
+  url: string = "https://error-pueblada-api.herokuapp.com/api"
   
   constructor(private http: HttpClient) {}
 
