@@ -8,7 +8,7 @@ import { User } from '../interface/user';
 })
 export class UserService {
 
-  url2: string = "https://comunidad-apirest.herokuapp.com/api";
+  url2: string = "https://portfolioapirest.herokuapp.com/api";
   url: string = "https://error-pueblada-api.herokuapp.com/api"
   user: User = { username: "", password: "", token: "" };
 
