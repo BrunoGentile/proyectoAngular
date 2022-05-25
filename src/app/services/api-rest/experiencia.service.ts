@@ -9,7 +9,6 @@ export class ExperienciaService {
  
  
   url2: string = "https://portfolioapirest.herokuapp.com/api";
-  url: string = "https://error-pueblada-api.herokuapp.com/api"
   
   constructor(private http: HttpClient) {}
 
