@@ -79,6 +79,7 @@ export class EducacionModalComponent implements OnInit {
   }
 
   crearEducacion(){
+    this.formulario.value.persona =1
     this.educacionService.save(this.formulario.value).subscribe(
       data => {
         this.activeModal.close();

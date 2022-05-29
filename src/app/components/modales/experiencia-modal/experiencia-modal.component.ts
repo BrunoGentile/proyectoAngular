@@ -107,6 +107,7 @@ export class ExperienciaModalComponent implements OnInit {
   }
 
   crearExperiencia(){
+    this.formulario.value.persona =1
     this.experienciaService.save(this.formulario.value).subscribe(
       data => {
         this.activeModal.close();
