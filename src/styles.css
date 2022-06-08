@@ -1,4 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-    background-color: #a6b1ff;
+    background-color: #b4d5ff;
+}
+
+.btn-outline-primary {
+    color: #0d6efd;
+    border-color: #0d6efd;
+    background-color: #d4e5ff; 
 }
